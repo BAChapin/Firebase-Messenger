@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEAE771123F24996004E8096 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE771023F24996004E8096 /* UIViewExtension.swift */; };
+		FEAE771323F24D89004E8096 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE771223F24D89004E8096 /* CALayerExtension.swift */; };
+		FEAE771523F24FF2004E8096 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE771423F24FF2004E8096 /* TextField.swift */; };
+		FEAE771723F2D864004E8096 /* FBServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE771623F2D864004E8096 /* FBServices.swift */; };
+		FEAE771923F2D8A4004E8096 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE771823F2D8A4004E8096 /* User.swift */; };
+		FEAE771B23F2E3B8004E8096 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE771A23F2E3B8004E8096 /* UIViewControllerExtension.swift */; };
+		FEAE771D23F2EEAD004E8096 /* FBErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE771C23F2EEAD004E8096 /* FBErrors.swift */; };
+		FEAE771F23F2FB04004E8096 /* MessageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAE771E23F2FB04004E8096 /* MessageListVC.swift */; };
 		FEF9977623E92012004F9C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9977523E92012004F9C0F /* AppDelegate.swift */; };
 		FEF9977823E92012004F9C0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9977723E92012004F9C0F /* SceneDelegate.swift */; };
-		FEF9977A23E92012004F9C0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9977923E92012004F9C0F /* ViewController.swift */; };
-		FEF9977D23E92012004F9C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF9977B23E92012004F9C0F /* Main.storyboard */; };
+		FEF9977A23E92012004F9C0F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF9977923E92012004F9C0F /* LoginVC.swift */; };
 		FEF9977F23E92013004F9C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF9977E23E92013004F9C0F /* Assets.xcassets */; };
 		FEF9978223E92013004F9C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF9978023E92013004F9C0F /* LaunchScreen.storyboard */; };
 		FEF9978A23E99717004F9C0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEF9978923E99717004F9C0F /* GoogleService-Info.plist */; };
@@ -21,11 +28,18 @@
 		101219498162156014E490C0 /* Pods-Firebase Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Messenger.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Messenger/Pods-Firebase Messenger.debug.xcconfig"; sourceTree = "<group>"; };
 		874F27311C97B82188B5460A /* Pods-Firebase Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Messenger.release.xcconfig"; path = "Target Support Files/Pods-Firebase Messenger/Pods-Firebase Messenger.release.xcconfig"; sourceTree = "<group>"; };
 		9E7510866D3EC844155E04F6 /* Pods_Firebase_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAE771023F24996004E8096 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FEAE771223F24D89004E8096 /* CALayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		FEAE771423F24FF2004E8096 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		FEAE771623F2D864004E8096 /* FBServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBServices.swift; sourceTree = "<group>"; };
+		FEAE771823F2D8A4004E8096 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FEAE771A23F2E3B8004E8096 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		FEAE771C23F2EEAD004E8096 /* FBErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBErrors.swift; sourceTree = "<group>"; };
+		FEAE771E23F2FB04004E8096 /* MessageListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListVC.swift; sourceTree = "<group>"; };
 		FEF9977223E92012004F9C0F /* Firebase Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF9977523E92012004F9C0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEF9977723E92012004F9C0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FEF9977923E92012004F9C0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FEF9977C23E92012004F9C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEF9977923E92012004F9C0F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FEF9977E23E92013004F9C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEF9978123E92013004F9C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEF9978323E92013004F9C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +75,43 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FEAE770C23F2463D004E8096 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEF9977923E92012004F9C0F /* LoginVC.swift */,
+				FEAE771E23F2FB04004E8096 /* MessageListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEAE770D23F24649004E8096 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE771423F24FF2004E8096 /* TextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEAE770E23F24652004E8096 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE771623F2D864004E8096 /* FBServices.swift */,
+				FEAE771823F2D8A4004E8096 /* User.swift */,
+				FEAE771C23F2EEAD004E8096 /* FBErrors.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEAE770F23F24981004E8096 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FEAE771023F24996004E8096 /* UIViewExtension.swift */,
+				FEAE771223F24D89004E8096 /* CALayerExtension.swift */,
+				FEAE771A23F2E3B8004E8096 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FEF9976923E92012004F9C0F = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +133,12 @@
 		FEF9977423E92012004F9C0F /* Firebase Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				FEAE770F23F24981004E8096 /* Extensions */,
+				FEAE770E23F24652004E8096 /* Model */,
+				FEAE770D23F24649004E8096 /* View */,
+				FEAE770C23F2463D004E8096 /* Controller */,
 				FEF9977523E92012004F9C0F /* AppDelegate.swift */,
 				FEF9977723E92012004F9C0F /* SceneDelegate.swift */,
-				FEF9977923E92012004F9C0F /* ViewController.swift */,
-				FEF9977B23E92012004F9C0F /* Main.storyboard */,
 				FEF9977E23E92013004F9C0F /* Assets.xcassets */,
 				FEF9978023E92013004F9C0F /* LaunchScreen.storyboard */,
 				FEF9978323E92013004F9C0F /* Info.plist */,
@@ -157,7 +210,6 @@
 				FEF9978223E92013004F9C0F /* LaunchScreen.storyboard in Resources */,
 				FEF9978A23E99717004F9C0F /* GoogleService-Info.plist in Resources */,
 				FEF9977F23E92013004F9C0F /* Assets.xcassets in Resources */,
-				FEF9977D23E92012004F9C0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +262,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF9977A23E92012004F9C0F /* ViewController.swift in Sources */,
+				FEAE771D23F2EEAD004E8096 /* FBErrors.swift in Sources */,
+				FEAE771323F24D89004E8096 /* CALayerExtension.swift in Sources */,
+				FEF9977A23E92012004F9C0F /* LoginVC.swift in Sources */,
+				FEAE771B23F2E3B8004E8096 /* UIViewControllerExtension.swift in Sources */,
+				FEAE771F23F2FB04004E8096 /* MessageListVC.swift in Sources */,
 				FEF9977623E92012004F9C0F /* AppDelegate.swift in Sources */,
+				FEAE771523F24FF2004E8096 /* TextField.swift in Sources */,
+				FEAE771923F2D8A4004E8096 /* User.swift in Sources */,
+				FEAE771123F24996004E8096 /* UIViewExtension.swift in Sources */,
+				FEAE771723F2D864004E8096 /* FBServices.swift in Sources */,
 				FEF9977823E92012004F9C0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,14 +279,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FEF9977B23E92012004F9C0F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEF9977C23E92012004F9C0F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FEF9978023E92013004F9C0F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

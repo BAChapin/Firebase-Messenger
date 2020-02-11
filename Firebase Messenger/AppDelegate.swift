@@ -12,12 +12,17 @@ import Firebase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         FirebaseApp.configure() // This was done in "Getting Started in Swift"
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let loginVC = LoginVC()
+        window?.rootViewController = loginVC
+        window?.makeKeyAndVisible()
         
         return true
     }
